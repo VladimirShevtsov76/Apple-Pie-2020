@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B104403A261F5BE000BAA0CB /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = B1044038261F5BE000BAA0CB /* Screenshot02.png */; };
+		B104403B261F5BE000BAA0CB /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = B1044039261F5BE000BAA0CB /* Screenshot01.png */; };
 		B1AD734625FE65E5004F7727 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AD734525FE65E5004F7727 /* Game.swift */; };
 		B1FD47CA25E63B5A00A998CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD47C925E63B5A00A998CB /* AppDelegate.swift */; };
 		B1FD47CC25E63B5A00A998CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1FD47CB25E63B5A00A998CB /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1044038261F5BE000BAA0CB /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
+		B1044039261F5BE000BAA0CB /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
 		B1AD734525FE65E5004F7727 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		B1FD47C625E63B5A00A998CB /* Apple Pie 2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pie 2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1FD47C925E63B5A00A998CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1044036261F5BA600BAA0CB /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				B1044039261F5BE000BAA0CB /* Screenshot01.png */,
+				B1044038261F5BE000BAA0CB /* Screenshot02.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		B1FD47BD25E63B5A00A998CB = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		B1FD47C825E63B5A00A998CB /* Apple Pie 2020 */ = {
 			isa = PBXGroup;
 			children = (
+				B1044036261F5BA600BAA0CB /* Screenshots */,
 				B1FD47C925E63B5A00A998CB /* AppDelegate.swift */,
 				B1FD47D225E63B5B00A998CB /* Assets.xcassets */,
 				B1AD734525FE65E5004F7727 /* Game.swift */,
@@ -130,6 +144,8 @@
 				B1FD47D625E63B5B00A998CB /* LaunchScreen.storyboard in Resources */,
 				B1FD47D325E63B5B00A998CB /* Assets.xcassets in Resources */,
 				B1FD47D125E63B5A00A998CB /* Main.storyboard in Resources */,
+				B104403B261F5BE000BAA0CB /* Screenshot01.png in Resources */,
+				B104403A261F5BE000BAA0CB /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
